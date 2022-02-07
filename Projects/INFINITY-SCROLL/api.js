@@ -1,5 +1,0 @@
-const api = [{"id":1,"image":"https://images.unsplash.com/photo-1641763770805-f62250258b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyOTgyNzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NDQxODEwMTU&ixlib=rb-1.2.1&q=80&w=1080"},
-{"id":2,"image":"https://images.unsplash.com/photo-1641763770805-f62250258b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyOTgyNzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NDQxODEwMTU&ixlib=rb-1.2.1&q=80&w=1080"},
-{"id":3,"image":"https://images.unsplash.com/photo-1641763770805-f62250258b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyOTgyNzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NDQxODEwMTU&ixlib=rb-1.2.1&q=80&w=1080"},
-{"id":4,"image":"https://images.unsplash.com/photo-1641763770805-f62250258b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyOTgyNzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NDQxODEwMTU&ixlib=rb-1.2.1&q=80&w=1080"},
-{"id":5,"image":"https://images.unsplash.com/photo-1641763770805-f62250258b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyOTgyNzV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NDQxODEwMTU&ixlib=rb-1.2.1&q=80&w=1080"}]
