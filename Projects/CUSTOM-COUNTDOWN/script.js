@@ -56,13 +56,6 @@ const updateDOM = () => {
             countdownEl.hidden = false;
             completeEl.hidden = true;
         }
-
-        //populate countdown
-        // countdownElTitle.textContent = countdownTitle;
-        // timeElements[0].textContent = days;
-        // timeElements[1].textContent = hours;
-        // timeElements[2].textContent = minutes;
-        // timeElements[3].textContent = seconds;
     }, second)
 }
 
@@ -77,7 +70,7 @@ const reset = () => {
     countdownTitle = '';
     countdownDate = '';
     localStorage.removeItem('countdown');
-    countdownForm[0].reset();
+    countdownForm.reset();
 }
 
 //restore previous countdown
@@ -102,7 +95,6 @@ countdownForm.addEventListener('submit', function (e) {
         title: countdownTitle,
         date: countdownDate
     }
-    console.log(savedCountdown);
     localStorage.setItem('countdown', JSON.stringify(savedCountdown));
     //check for valid date
     if (countdownDate == '') {
