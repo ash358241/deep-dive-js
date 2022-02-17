@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>NASA API PICZ</title>
+</head>
+<body>
+    <!-- loader -->
+    <div class="loader hidden">
+        <img src="./rocket.svg">
+    </div>
+    <!-- container -->
+    <div class="container">
+        <!-- navigation -->
+        <div class="navigation-container">
+            <span class="background"></span>
+            <!-- results nav -->
+            <span class="navigation-items" id="resultsNav">
+                <h3 class="clickable" onClick="updateDOM('favorites')">Favorites</h3>
+                <h3>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;</h3>
+                <h3 class="clickable" onClick="getNasaPictures()">Load More</h3>
+            </span>
+            <!-- Favorites Nav -->
+            <span class="navigation-items hidden" id="favoritesNav">
+                <h3 class="clickable" onClick="getNasaPictures()">Load More NASA Images</h3>
+            </span>
+        </div>
+        <!-- img container -->
+        <div class="images-container">
+            <!-- <div class="card">
+                <a href="" target="_blank">
+                    <img src="https://apod.nasa.gov/apod/image/2202/auroralakeFeb10_Heden.jpg" alt="" class="card-img-top">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Title of image</h5>
+                    <p class="clickable">Add to Favorites</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, perspiciatis quaerat! Sed dicta error cupiditate ipsam earum deleniti consequuntur. Alias dolorem vitae error assumenda reiciendis omnis recusandae officiis blanditiis consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, vero. Nostrum eligendi a, nisi, ullam facilis excepturi perspiciatis recusandae voluptate sunt, ratione autem? Maiores ullam nisi cupiditate temporibus. Molestiae, nulla?</p>
+                    <small class="text-muted">
+                        <strong>12-12-12</strong>
+                        <strong>Copyright Info.</strong>
+                    </small>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- save info -->
+    <div class="save-confirmed" hidden>
+        <h1>ADDED!</h1>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
